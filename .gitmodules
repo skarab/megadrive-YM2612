@@ -1,0 +1,3 @@
+[submodule "gendev"]
+	path = gendev
+	url = https://github.com/kubilus1/gendev.git
