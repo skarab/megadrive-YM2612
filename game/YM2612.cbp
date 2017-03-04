@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="YM2612" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<MakeCommands>
+			<Build command="$make" />
+			<CompileFile command="" />
+			<Clean command="$make clean" />
+			<DistClean command="$make -f $makefile distclean$target" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command="$make &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/YM2612" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="make" />
+					<CompileFile command="" />
+					<Clean command="make clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="make &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/asm.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/bmp.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/config.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/dma.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/everdrive.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/fat16.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/font.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/genesis.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/joy.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/kdebug.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/maths.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/maths3D.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/memory.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/psg.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/smp_null.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/smp_null_pcm.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/sound.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/sprite_eng.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/sram.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/string.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/sys.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/tab_cnv.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/tab_vol.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/tfcplay.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/tile_cache.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/timer.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/tools.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/types.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/vdp.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/vdp_bg.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/vdp_dma.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/vdp_pal.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/vdp_spr.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/vdp_tile.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/vram.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/ym2612.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/z80_ctrl.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/z80_mvsc.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/inc/z80_vgm.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/bmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/bmp_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/boot/rom_head.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/boot/sega.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/everdrive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/fat16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/joy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/kdebug.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/maths.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/maths3D.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/maths3D_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/memory_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/psg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/smp_null.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/smp_null_pcm.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/sprite_eng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/sram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/sram_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/sys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/sys_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tab_cnv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tab_log10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tab_log2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tab_sin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tab_sqrt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tab_vol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tfcplay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tile_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/tools_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp_bg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp_pal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp_pal_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp_spr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp_tile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vdp_tile_a.s" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/vram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/ym2612.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_drv1.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_drv2.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_drv3.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_mvs.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_tfm.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_vgm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/z80_xgm.h" />
+		<Unit filename="../gendev/sgdk/sgdk-read-only/src/zlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sme/sme_input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sme/sme_input.h" />
+		<Unit filename="ym2612_controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ym2612_controller.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

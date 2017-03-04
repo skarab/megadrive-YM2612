@@ -1,0 +1,15 @@
+     ___
+    /___\     .YM2612 LIVE PLAYER.
+   /(o_o)\             .K-STORM.
+    (_| |_)    
+  / .|. \ .WILD TOOL FOR EVER AND EVER.
+
+This simple YM2612 controller allows you to create music&noise live on your megadrive.
+Functionnalities of the YM2612 are all exposed, with the addition of a basic sequencer (keys on/off), tone generator feature (set mode to 2), may be used to patch other synth ...
+
+It implements features from this document : http://www.smspower.org/maxim/Documents/YM2612
+Only missing the special Channels 3 & 6 operators frequencies handling, and the DAC...
+
+
+If you have suggestions for the v2, which I'll make cause for now the texts are unreadable on my UHV micro-TV sitting next to my microbrute,
+mail me at alex.cham@yandex.com
